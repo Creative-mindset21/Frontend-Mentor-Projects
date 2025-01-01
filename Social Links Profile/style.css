@@ -98,6 +98,15 @@ body {
   border-radius: 8px;
 }
 
+.links:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+
+.links:hover a {
+  color: hsl(0, 0%, 20%);
+  font-weight: bold;
+}
+
 .links a {
   color: white;
 }

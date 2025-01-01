@@ -1,0 +1,20 @@
+/* !INSTALLING CUSTOM FONTS */
+@font-face {
+  font-family: "Figtree";
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: italic;
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

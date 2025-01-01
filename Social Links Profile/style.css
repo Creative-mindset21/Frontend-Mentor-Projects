@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   border-radius: 12px;
   padding: 2.5rem;
-  max-width: 384px;
+  width: 384px;
   align-items: center;
   gap: 2rem;
   margin: 2rem;
@@ -116,8 +116,14 @@ body {
   text-decoration: underline;
 }
 
-@media (min-width: 599px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .container {
     width: 456px;
+  }
+}
+
+@media (max-width: 499px) {
+  .container {
+    width: 327px;
   }
 }

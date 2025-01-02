@@ -104,21 +104,3 @@ main {
   color: hsl(0, 0%, 7%);
   font-size: 0.875rem;
 }
-
-/* !FOOTER CSS */
-footer {
-  position: absolute;
-  bottom: 1rem;
-  text-align: center;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.attribution a {
-  color: hsl(0, 0%, 7%);
-  font-weight: bold;
-}
-
-.attribution a:hover {
-  text-decoration: underline;
-}
